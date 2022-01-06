@@ -1,12 +1,12 @@
 import './App.css';
-import TextInDiv from './TextInDiv'
+import ButtonInDiv from './ButtonInDiv';
 
 const textForButton = 'New text is here!';
 
 function App() {
   return (
     <div className="App">
-      <TextInDiv text={textForButton} />
+      <ButtonInDiv text={textForButton} />
     </div>
   );
 }

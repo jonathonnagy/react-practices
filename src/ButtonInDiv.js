@@ -5,7 +5,7 @@ let button = (props) => {
 
 const clickButton = () => {
     for (let i = 0; i < 10; i++) {
-        document.body.insertAdjacentHTML('beforeend','<div><button>hello</button></div>')
+     document.body.insertAdjacentHTML('beforeend', '<div><button>New button</button></div>');
     }
 }
 
