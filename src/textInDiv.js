@@ -4,7 +4,9 @@ let button = (props) => {
 }
 
 const clickButton = () => {
-    document.body.insertAdjacentHTML('beforeend','<div>hello</div>')
+    for (let i = 0; i < 10; i++) {
+        document.body.insertAdjacentHTML('beforeend','<div><button>hello</button></div>')
+    }
 }
 
 export default button
