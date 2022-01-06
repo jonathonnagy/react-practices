@@ -1,12 +1,22 @@
 import './App.css';
-import ButtonInDiv from './ButtonInDiv';
+// import ButtonListWithFor from './ButtonListWithFor';
+import ButtonListWithMap from './ButtonListWithMap';
+import Profile from './Profile';
+import Profile2 from './Profile2';
+import Profile3 from './Profile3';
+import Profile4 from './Profile4';
 
-const textForButton = 'New text is here!';
+
 
 function App() {
   return (
     <div className="App">
-      <ButtonInDiv text={textForButton} />
+      {/* <ButtonListWithFor /> */}
+      <ButtonListWithMap />
+      <Profile />
+      <Profile2 />
+      <Profile3 />
+      <Profile4 />
     </div>
   );
 }
